@@ -120,6 +120,27 @@
 
 		*/
 
+				$ave = "87";
+		
+		if($ave >=95 && $ave <=100){
+			echo "Excellent";
+		}
+		else if($ave >=85 && $ave <=94){
+			echo "Very Good";
+		}
+		else if($ave >=80 && $ave <=84){
+			echo "Good";
+		}
+		else if($ave >=75 && $ave <=79){
+			echo "Passed";
+		}
+		else if($ave < 75){
+			echo "Go home plant KaMOTEEE";
+		}
+		else{
+			echo "WALANG GANYAN, LOADS";
+		}
+
 		
 
 
